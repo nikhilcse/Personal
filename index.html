@@ -1,56 +1,54 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-  <header>Ally Qi</header>
-  <article>
-    <a href="centennial.jpg">
-    <img src="centennial.jpg" alt="Centennial Park in Summer"
-    style="width:300px;height:300px;">
-    </a>
-    <p><em>Cherry Blossom</em></p>
-    </article>
-  <p>I'm a student in this Data Bootcamp.</p>
-  <p>And this is fun.</p>
-  <hr>
-  <header>My social media pages</header>
-  <ul>
-      <li><a target="_blank" href="http://google.com/">My Webpage</a></li>
-      <li><a target="_blank" href="http://cnn.com/">CNN Home</a></li>
-      <li><a target="_blank" href="http://facebook.com">Facebook Home</a></li>
-  </ul>
-  <hr>
-  <table border="1">
-    <thead>
-      <tr>
-        <th colspan="3">My Favorites Movies, Songs, Books</th>
-      </tr>
-      <tr>
-        <th>Movies</th>
-        <th>Songs</th>
-        <th>Books</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Movie 1</td>
-        <td>Song 1</td>
-        <td>Book 1</td>
-      </tr>
-    <tr>
-        <td>Movie 2</td>
-        <td>Song 2</td>
-        <td>Book 2</td>
-    </tr>
-    <tr>
-        <td>Movie 3</td>
-        <td>Song 3</td>
-        <td>Book 3</td>
-    </tr>
-  </table>
+<body class="impact">
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Ally Qi</h2>
+        <img id="bio-image" src="https://static.boredpanda.com/blog/wp-content/uploads/2017/04/cute-dog-shiba-inu-ryuji-japan-12.jpg" alt="Cute Ryuji Dog" style="width:300px;height:300px";>
+      </section>
+      <p>Grew up in the bay area and completed her master’s degree in public health, Ally first started as a research analyst III at VUMC since 2016, who oversaw the full process of data management for multiple longitudinal community-based childhood research studies on childhood health and education.
+
+        Her data management responsibilities included start-up activities (survey design & eligibility determination), REDCap & ACCESS database construction & maintenance, data cleaning for outliers & discrepancies & unusual patterns and data analysis using STATA.
+        
+        Her project management experience included assisting start-up activities such as survey and database design, monitoring recruitment goals and retention status, resolving daily operational issues with team members, developing quality control standards based on project needs, and writing data entry protocols.
+        
+        Nevertheless, she has gained extensive experience in preparing meeting reports, automating and implementing data workflow in these two invaluable years.
+        
+        Her past research projects include longitudinal community-based studies: Growing Right onto Wellness (GROW) which results were published in JAMA in 2018; GROW T7, COACH; ROCKET; implementation projects: ADAPT, Teaching Kitchen Outreach (TKO) with Nashville Metro Parks & Recreation Centers; and small-scale hospital quality improvement projects: Food Insecurity, TIPS mTurk.
+        
+        In 2018, she celebrated with her first co-authored manuscript for the COACH study: J. Heerman, William & E. Burgess, Laura & Escarfuller, Juan & Teeters, Leah & Slesur, Lauren & Liu, Jia & Qi, Ally & Samuels, Lauren & Singer-Gabella, Marcy. (2018). Competency-Based Approach to Community Health (COACH): The methods of a family-centered, community-based, individually adaptive obesity randomized trial for pre-school child-parent pairs. Contemporary Clinical Trials. 73. 10.1016/j.cct.2018.08.006.
+        
+        Living in Nashville, Ally loves the cherry blossom in spring (not the allergy), the Parthenon where she enjoys walking on Sunday mornings, the French bakery Provence (sadly closed) where she loved buying her favorite macarons and watched tourists waiting in line at Pancake Pantry, and the free orchestra performances at Blair School of Music (Thank you, Vanderbilt!). She also enjoys traveling, trekking, running, and not cooking. Her next trekking destination in Annapurna, Nepal, please contact her if you are interested.</p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">allyqi@vumc.org</a></li>
+        <li><strong>Github:</strong> <a href="https://maia1220.github.io/Personal/">https://maia1220.github.io/Personal/</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mcally/">https://www.linkedin.com/in/mcally/</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
+
 </html>

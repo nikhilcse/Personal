@@ -1,0 +1,73 @@
+
+/* First CSS Styleshet
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    background: #efeee7;
+    color: #333333;
+}
+
+header {
+    background-color: #333333;
+}
+
+h1 {
+    padding: 20px 0;
+    color: #eee;
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+/* Class */
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* ID */
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+a {
+    color: #d21034;
+}
+
+#figure {
+    position: relative;
+}
+
+#bio-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
